@@ -19,9 +19,10 @@ public class ContactRepository {
     }
 
     public void add(Contact contact) {
-        if (!contact.getName().isEmpty()) {
-            this.contacts.put(contact.getName(), contact);
+        if (contact.getName().isEmpty() || contact.getNumber().isEmpty()) {
+            return;
         }
+        this.contacts.put(contact.getName(), contact);
     }
 
     public void update(Contact contact) {

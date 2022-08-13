@@ -11,7 +11,7 @@ The functionality of the application should support:
 ### Data Model  
 The Contact entity holds 2 properties:  
 - name – non-empty text
-- number – text  
+- number – non-empty text  
 
 ### Notes
 Runs under Java 13 on localhost:8080
