@@ -3,15 +3,15 @@
 ###Problem  
 You have been tasked to create a simple Phonebook application. The application should hold contacts, which are the main app entity.  
 The functionality of the application should support:  
-* Listing contacts  
-* Add Contact  
+- Listing contacts  
+- Add Contact  
 ###Requirements  
-* Spring framework (Spring MVC + Spring Boot + Spring Data)  
-* Thymeleaf view engine  
+- Spring framework (Spring MVC + Spring Boot + Spring Data)  
+- Thymeleaf view engine  
 ###Data Model  
 The Contact entity holds 2 properties:  
-* name – non-empty text
-* number – text  
+- name – non-empty text
+- number – text  
 
 ###Notes
 Runs under Java 13 on localhost:8080
