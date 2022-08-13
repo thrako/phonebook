@@ -12,3 +12,6 @@ The functionality of the application should support:
 The Contact entity holds 2 properties:  
 * name – non-empty text
 * number – text  
+
+#Notes
+Runs under Java 13 on localhost:8080
